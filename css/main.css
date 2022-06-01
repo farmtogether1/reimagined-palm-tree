@@ -267,10 +267,10 @@ p a {
 }
 #home #card {
   position: absolute;
-  width: 30%;
-  left: 100%;
-  top: -40px;
-  margin-left: -30%;
+  width: 50%;
+  left: 50%;
+  top: -50px;
+  /* margin-left: -30%; */
 }
 #white-paper {
   font-weight: 700;
