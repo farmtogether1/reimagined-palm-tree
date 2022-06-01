@@ -6,12 +6,13 @@
 <head>
     <title>DraceInu</title>
     <meta charset="utf-8">
-    <meta name="description" content="Recreate a vibrant memory. In the MetaDrace world">
+    <meta name="description"
+        content="DraceInu is a coin meme developed to create effects in the community. Together once again to the world where we had a bright time with MetaDrace.The history will repeat and DraceInu will be like Shiba or Baby Doge!">
     <meta name="keywords" content="DraceInu, MetaDrace, Metadrace.io, DraceInu.com">
     <meta name="author" content="Drace">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="./images/media/drace.png">
-    <link rel="apple-touch-icon" href="./images/media/drace.png">
+    <link rel="shortcut icon" href="./images/media/favico.png">
+    <link rel="apple-touch-icon" href="./images/media/favico.png">
     <link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link
@@ -24,8 +25,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="../code.jquery.com/jquery-3.6.0.slim.min.js"
-        integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
 </head>
 
 <body class="home">
@@ -38,7 +41,7 @@
         <li><a href="#faqs"><span>Memories</span></a></li>
     </ul>
     <!-- Join Presale -->
-    <div id="fixed-join-presale">
+    <div id="fixed-join-presale" class="desktopTop mobileTop show">
         <img id="close-join-presale" src="images/cross.svg" alt="" />
         <div class="wrapper">
             <div class="grid">
@@ -103,7 +106,7 @@
 
     <nav id="navbar">
         <div class="wrapper">
-            <a href="#"><img id="logo" src="images/media/metadrace.png" alt="Logo" /></a>
+            <a href="#"><img id="logo" src="images/media/logo.png" alt="Logo" /></a>
             <nav id="fixed-menu">
                 <ul id="menu">
                     <li class="selected">
@@ -366,11 +369,11 @@
         <!-- The Roadmap -->
         <section id="roadmap" class="scrollspy">
             <div class="wrapper">
-                <h2 class="wow animate__animated animate__rotateIn" data-wow-offset="70">Roadmap</h2>
-                <p class="description wow animate__animated animate__rotateInDownLeft" data-wow-offset="70">Building a
+                <h2 class="wow animate__animated animate__fadeIn" data-wow-offset="70">Roadmap</h2>
+                <p class="description wow animate__animated animate__fadeIn" data-wow-offset="70">Building a
                     strong
                     and united community is DraceInu's goal. Step by step towards success!</p>
-                <div id="timeline" class="wow animate__animated animate__rotateInDownRight" data-wow-offset="70">
+                <div id="timeline" class="wow animate__animated animate__fadeIn" data-wow-offset="70">
                     <div class="start completed">
                         <div class="card completed">
                             <p class="date">Phase 1</p>
@@ -539,7 +542,11 @@
             document.execCommand('copy');
             $('#copy-contract').addClass('success');
         });
-
+        // $(document).keydown(function (event) {
+        //     if (event.keyCode == 27) {
+        //         $('#fixed-join-presale').hide();
+        //     }
+        // });
     </script>
 </body>
 
