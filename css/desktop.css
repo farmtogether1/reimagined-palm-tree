@@ -135,8 +135,8 @@
   }
   /* Home */
   #home {
-    background-image: url(../images/card-bg.jpg);
-    background-position: center;
+    /* background-image: url(../images/card-bg.jpg); */
+    background-position: left;
     background-repeat: no-repeat;
     background-size: 96%;
   }
