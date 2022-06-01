@@ -358,8 +358,8 @@ p a {
   opacity: 1;
 }
 #partners img {
-  width: auto;
-  height: 34px;
+  width: 100%;
+  height: 65px;
 }
 
 /* Copyright */
